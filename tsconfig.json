@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"outFile": "lib/index.js",
+		"sourceMap": false,
+		"baseUrl": ".",
+		"module": "amd",
+		"target": "es5",
+		"declaration": true,
+		"removeComments": true,
+		"paths": {
+			"*": [
+				"src/*",
+				"node_modules/*"
+			]
+		}
+	},
+	"include": [
+		"./src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"src/**/*.spec.ts"
+	]
+}
